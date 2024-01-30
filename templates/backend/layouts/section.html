@@ -1,0 +1,8 @@
+{% load static %}
+{% include "backend/layouts/header.html" %}
+{% include "backend/layouts/menu.html" %}
+<div class="row">
+    <div class="col-md-6 grid-margin stretch-card">
+      {% block mainsection %}{% endblock %}
+    </div>
+{% include "backend/layouts/footer.html" %}
